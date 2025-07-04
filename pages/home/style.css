@@ -36,6 +36,17 @@ header {
         & ul {
             display: grid;
             grid-template-columns: repeat(3, 200px);
+
+            & li{
+               & a{
+                text-decoration: none;
+                color: #fff;
+               }
+
+               & :hover{
+                color: #beff1b;
+               }
+            }
         }
     }
 }
